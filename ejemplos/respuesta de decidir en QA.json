@@ -1,0 +1,50 @@
+{
+   "id":8837807,
+   "customer":null,
+   "currency":"ARS",
+   "amount":5265,
+   "installments":1,
+   "first_installment_expiration_date":null,
+   "site_transaction_id":"985340",
+   "bin":"451770",
+   "payment_method_id":31,
+   "payment_type":"single",
+   "site_id":"00201114",
+   "sub_payments":[
+
+   ],
+   "fraud_detection":{
+      "status":null,
+      "csmdds":null
+   },
+   "plan_id":null,
+   "aggregate_data":null,
+   "establishment_name":"TP *Martinez Franco",
+   "payment_mode":null,
+   "token":"574643e3-f3d5-4711-b729-33195f123f10",
+   "date":"2020-04-16T14:30Z",
+   "date_created":null,
+   "date_approved":null,
+   "date_last_updated":null,
+   "status":"rejected",
+   "status_details":{
+      "ticket":"5486",
+      "card_authorization_code":"",
+      "address_validation_code":null,
+      "error":{
+         "type":"invalid_card",
+         "reason":{
+            "id":5,
+            "description":"DENEGADA",
+            "additional_description":""
+         }
+      }
+   },
+   "confirmed":null,
+   "pan":"338ddd224db727faa2700764f6337f382b",
+   "customer_token":null,
+   "card_data":{
+      "card_number":null,
+      "card_holder":null
+   }
+}
