@@ -1,4 +1,5 @@
 import { expect } from './mockserver';
+import * as dataJson from '../ejemplos/data.json'
 
 export class Prueba {
   configMockServer() {
@@ -6,9 +7,7 @@ export class Prueba {
       'GET',
       '/foo',
       201,
-      {
-        foo: 'bar'
-      },
+        dataJson,
       0
     );
   }

@@ -1,7 +1,7 @@
 import { mockServerClient } from 'mockserver-client';
 
 const HOST = 'localhost';
-const PORT = 32769;
+const PORT = 1080;
 
 export function expect(
   verb: string,
@@ -33,7 +33,7 @@ export function expect(
     })
     .then(
       function() {
-        console.log(`expectation created: ${verb}, ${path}, ${status}`);
+        //console.log(`expectation created: ${verb}, ${path}, ${status.toString()}`);
       },
       function(error) {
         console.log(error);
